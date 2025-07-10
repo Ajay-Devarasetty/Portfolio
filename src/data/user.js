@@ -1,30 +1,28 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio",
+		name: "Ajay Devarasetty",
+		email: "devarasettyajay7@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Ajay-Devarasetty",
+		linkedin: "www.linkedin.com/in/ajay-devarasetty-b67614250",
+		instagram: "https://instagram.com/"
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Front end developer with expertise in React.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Ajay Devarasetty",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on a range of projects using technologies like React, Redux, and FastAPI—each one helping me grow as a developer. These projects reflect real-world functionality like user interaction, API integration, and state management. Most are open-source and open for collaboration, so feel free to explore, share feedback, or contribute!",
 	},
 
 	articles: {
@@ -35,49 +33,31 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "FakeShop – React & Redux E-commerce UI",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Built a responsive e-commerce frontend using React and Redux with cart and wishlist functionality. Implemented temporary state management to add, move, and update items without a backend.",
+			logo: "https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://fakeshop-redux-react.netlify.app/",
 		},
 
 		{
-			title: "Project 2",
+			title: "To-Do App – React & Redux",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Created a simple and responsive to-do list application using React and Redux. Users can add, edit, and delete tasks with real-time state updates and clean UI interactions.",
+			logo: "https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://todoapplication-redux.netlify.app/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Promptly – AI Chatbot using React & FastAPI",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Built a full-stack AI chatbot web app using React for the frontend and FastAPI for the backend. Users can log in and interact with an AI model via the Groq API, receiving intelligent responses similar to ChatGPT.",
+			logo: "https://tse1.mm.bing.net/th/id/OIP.dpXAaEpwsJcs2UbZEp5jJwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+			link: "https://startling-cat-524e80.netlify.app/",
+		}
 	],
 };
 
